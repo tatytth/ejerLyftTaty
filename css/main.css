@@ -1,0 +1,357 @@
+/*
+ * Estilos de tu proyecto
+ */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+
+    font-family: Montserrat;
+    font-size: 16px;
+
+}
+
+.inicio{
+  background-image: url("../assets/images/hero.gif");
+  background-color: #74258D;
+  padding-top: 38px; 
+  background-size: 100% 100%;
+}
+
+/*ENCABEZADO*/
+header{
+  background-color: transparent;
+  position: fixed; /*posicion fija*/
+  top: 0px; 
+  width: 100%; /*3 lineas para que el encabezado este al 100%*/
+  /*height: 100px;*/
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 18px;
+}
+
+header:hover{
+  background-color: white;
+}
+header:hover #ilogo{
+  background-image: url("../assets/images/logo-pink.png");
+}
+header:hover ul li a{
+  color: #444444;
+}
+/*MENU*/
+
+nav {
+  vertical-align: middle; /*Todos los elementos de nav se alinean verticalmente*/
+  /* background: red; */
+}
+
+nav .menu li {
+list-style: none;
+display: inline-block; /*despliega horizontalmente elementos*/
+}
+
+.logo{
+  width: 40%;
+  /*background-color: red;*/
+}
+
+.logo a{
+  text-decoration: none; /*Quita subrayado*/
+}
+
+#ilogo{
+  background-image: url("../assets/images/logo-white.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* background-image: url("../assets/images/hero.gif");  */
+  /* background-color: blue; */
+  width: 80px;
+  height: 50px;
+}
+
+.menu{
+  width: 56.5%;
+  text-align: right;
+  /*background-color: blue;*/
+
+}
+
+.menu li{
+    /*float: right;*/
+    margin: 10px;
+}
+
+.menu li a {
+  padding: 8px;
+  color: white;
+  font-weight: 300;
+  text-decoration: none; /*Quita el subrayado*/
+}
+
+.menu li a:hover {
+color: #FF00BF;
+}
+
+
+.logo, .menu{
+  display: inline-block;
+  vertical-align: middle;;
+  margin: auto;
+  /*padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;*/
+}
+
+/*SECCION INICIO*/
+
+#sizquierdo {
+  width: 60%;
+  /*background: yellow;*/
+
+}
+
+#sderecho {
+  width: 30%;
+  background-color: white;
+  padding: 60px;
+  color: #B1AAD0;
+
+}
+
+#sderecho h1{
+  color: #60529E;
+  font-size: 40px;
+  font-style: bold; 
+
+}
+
+#sderecho #subtitulo{
+letter-spacing: 2px;
+padding-bottom: 15px;
+
+}
+
+#sizquierdo, #sderecho {
+  display: inline-block;
+  margin-top: 50PX;
+}
+
+input {
+  border-bottom: 1px solid #352384;
+  color: #9E9C9B;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#sderecho a#izq{
+  border-radius: 7px;
+  background: #FF00BF;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#sderecho a#der{
+  border-radius: 7px;
+  color: #B5B8BC;
+  padding: 10px;
+
+}
+
+p#descripcion {
+font-size: 10px;
+}
+
+#descripcion a{
+  color: #FF00BF;
+  text-decoration: none;
+}
+
+#descripcion a:hover{
+  text-decoration: underline;
+}
+
+/*SECCION IMAGEN*/
+
+.imagen .titulos{
+  color: #FFFFFF;
+  font-size: 30px;
+  font-style: bold;
+  margin-bottom: 10px; 
+}
+
+.imagen .detalles {
+  color: #FFFFFF;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.imagen{
+  background-image: linear-gradient(#76278F, #2B1E66);
+  /*Para degradado de tres colores background-image:linear-gradient(140deg,#00c853,#00bfa5,#00c853);*/
+  text-align: center;
+}
+
+.ambos{ /*Se utiliza para encapsular 2 elementos y le dieramos cierto porcentaje de margen*/
+  width: 80%;
+  margin: 0 auto;
+  /* margin-top: 15px; */
+  /* margin-bottom: 15px;  */
+}
+
+.imagen .ladoder img{
+  width: 450px;
+  height: auto;
+
+}
+
+.imagen .ladoizq{
+text-align: left;
+
+}
+
+.imagen .ladoizq, .imagen .ladoder{
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*SECCION AMPLIFY*/
+
+span{
+  font-size: 10px;
+}
+
+p.tit{
+  color: #000000;
+  font-size: 20px;
+  font-style: bold;
+  margin-bottom: 10px; 
+}
+
+p.det {
+  color: #000000;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.ladoizqampl {
+width: 30%;
+padding: 25px; 
+}
+
+.ladoderampl{
+width: 65%;
+}
+
+.ladoizqampl, .ladoderampl{
+  display: inline-block;
+  vertical-align: top;
+}
+
+iframe {
+  width: 100%;
+  height: 100vh;
+}
+
+/*SECCION JUNE*/
+
+.litext {
+  width: 30%;
+  padding: 25px;
+ 
+}
+
+.ldvid{
+  width: 62%;
+}
+
+.litext , .ldvid{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*SECCION GOOD*/
+
+.gizq {
+  width: 30%;
+  padding: 25px;
+ 
+}
+
+.gder{
+  width: 62%;
+}
+
+.gizq , .gder{
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/*SECCION FOOTER*/
+
+footer{
+background-color: #333447;
+color: white;
+text-align: center;
+
+}
+
+.f1, .f2, .f3, .f4{
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    text-align: left;
+    line-height: 200%;
+}
+
+.nombres{
+  font-style: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+.copy{
+  margin-top: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+div.f3 p:hover{
+  color: #FF00BF; 
+}
+
+.f4 img{
+  width: 5px
+  height: 5px;
+}
+
+span{
+  font-size: 25px;
+  width: 100px
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background: red;
+}
+
+hr{
+  height: 5px;
+  background: white;
+}
+
+footer #iconos{
+  background: red;
+  widows: 100%;
+  height: 50px;
+  text-align: center;
+}
